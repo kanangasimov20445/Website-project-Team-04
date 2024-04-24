@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:1.5;
+  
+  }
+  .header{
+  background-color: #695cbf;
+  color:white;
+  padding: 1.5rem;
+  text-align: center;
+  
+  }
+  
+  .header-title{
+    text-align: center;
+    margin:0;
+    
+  }
+  
+  .section{
+    padding: 1rem 2rem;
+    
+  }
+  
+  .section-content{
+  padding:1rem;
+  }
+  
+  .section-accent {
+    
+    color: white;
+  }
+  
+  .section-abilities{
+    background-color: #5fbec3;
+    list-style: none;
+    margin:0;
+    font-size: 1.1rem;
+  }
+  
+  .section-accent h2{
+    color: whitesmoke;
+    margin:0;
+  }
+  
+  .section-project{
+    color: brown;
+    list-style: none;
+    margin:0;
+    font-size: 1.1rem;
+  
+  }
+  
+  .section-project li{
+    margin-bottom: 1rem;
+    background-color: #5fbec3;
+  }
+  .section-project li:last-child{
+    margin:0;
+  }
+  
+  .section-com{
+    margin:1rem 0;
+  }
+  
+  .input{
+    border-radius: 2rem;
+    border: 1px solid #aaa;
+    outline: none;
+    padding: .5m;
+    font-size: 1rem;
+    font-family: inherit;
+    line-height: inherit;
+    resize: none;
+  }
+  
+  .input:focus{
+    border: 1px solid red;
+    box-shadow: 0 0 5px 0 red;
+    
+  }
+  
+  .btn{
+    background-color: #e2e4ec;
+    border: 1px solid rgb(141, 185, 228);
+    border-radius: 2rem;
+    padding: .5em 1em;
+    cursor: pointer;
+    outline: none;
+    }
+  
+    .btn:hover,.btn:focus{
+      background-color: #51b3da;
+      box-shadow: 0 0 5px 0;
+    }
+  
+    .footer{
+      background-color: #695cbf;
+  color:white;
+  padding: 1.5rem;
+  text-align: center;
+    }
+    .link1{
+      text-align: center;
+        padding: 1rem;
+        margin:1rem 0;
+        color: white;
+        background-color: blue;
+        border: 2px solid blue;
+        border-radius: 2rem;
+        cursor: pointer;
+        outline: none;
+    }
